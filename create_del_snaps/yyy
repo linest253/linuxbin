@@ -1,0 +1,15 @@
+(0)appprod5:/tcb/files/auth/r 9# cat root
+root:u_name=root:u_id#0:\
+        :u_pwd=9GpZtOrOr8EgM:\
+        :u_bootauth:u_auditid#0:\
+        :u_auditflag#1:\
+        :u_pswduser=root:u_suclog#1476832852:u_suctty=console:u_unsuclog#1476832253:\
+        :u_lock@:chkent:
+(0)appprod5:/tcb/files/auth/r 10# cat ../t/tlines
+tlines:u_name=tlines:u_id#10006:\
+        :u_pwd=*:\
+        :u_auditid#19:\
+        :u_auditflag#0:\
+        :u_suclog#1476832454:u_unsuclog#1238086819:u_unsuctty=:u_lock@:\
+        :chkent:
+

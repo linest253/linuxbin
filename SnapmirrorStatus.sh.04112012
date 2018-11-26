@@ -1,0 +1,22 @@
+FILER=tukvvnetapp05a
+ssh $FILER snapmirror status | grep -v "Snapmirror is on"
+FILER=tukvvnetapp05b
+ssh $FILER snapmirror status | grep -v "Snapmirror is on" | grep -v "^Source"
+FILER=tuknetapp1
+ssh $FILER snapmirror status | grep -v "Snapmirror is on" | grep -v "^Source"
+FILER=tuknetapp2
+ssh $FILER snapmirror status | grep -v "Snapmirror is on" | grep -v "^Source"
+FILER=tukvvnetapp2
+VFILER=tukvvfile1
+echo $FILER $VFILER
+ssh $FILER vfiler run $VFILER snapmirror status | grep -v "Snapmirror is on" | grep -v "^Source" | grep -v "^===" | grep -v "^$"
+FILER=tukvvnetapp1
+VFILER=tukv3file01
+echo $FILER $VFILER
+ssh $FILER vfiler run $VFILER snapmirror status | grep -v "Snapmirror is on" | grep -v "^Source" | grep -v "^===" | grep -v "^$"
+FILER=tukvvnetapp05b
+VFILER=tukvvmaintfs1
+echo $FILER $VFILER
+ssh $FILER vfiler run $VFILER snapmirror status | grep -v "Snapmirror is on" | grep -v "^Source" | grep -v "^===" | grep -v "^$"
+VFILER=tukvv
+

@@ -1,0 +1,14 @@
+seadvdw12cdb01
+seaqainfrmdb01
+seaqaoraadmdb01
+seaqapsmdb01
+seaqatitandb01
+seatsarm12cdb02
+seatscadb01
+seatsgpdb01
+seatshrmoptdb01
+seatsinfrmdb01
+seatsoam12cdb01
+seatspsmdb01
+seatstwsdb01
+seatspshcmdb13
